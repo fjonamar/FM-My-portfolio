@@ -1,0 +1,382 @@
+/* base rules */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2.h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Nunito', sans-serif;  
+    font-size: 20px;
+    line-height: 30px;
+    color:#6c757d;
+}
+
+.r-p{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.bg-sec{
+    background: #F8F9FA;
+}
+
+.r-btn{
+    padding: 5px 20px;
+    background-color: #61bbde !important;
+    color: #fff !important;
+}
+  
+/* navigation */
+.nav-pills .nav-link.active {
+  color: #000000 !important; 
+  background-color: #00000027 !important;
+  font-weight: bold !important;
+}
+
+.nav-pills .nav-link {
+  color: rgb(0, 0, 0) !important; 
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+
+nav.r-nav{
+    background: transparent;
+    padding: 20px 0;
+    transition: .5s all;
+}
+
+nav .navbar-brand{
+    font-size: 30px;
+    color: white;
+    transition: .5s all;
+}
+
+nav .navbar-nav li a{
+    color: rgba(255,255,255,0.8) !important;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav .navbar-nav li{
+    margin-left: 15px;
+}
+
+nav.r-nav.stickyadd{
+    background: #fff !important;
+    padding: 15px 0;
+    box-shadow: 0 1px 8px 3px rgba(0,0,0,0.5);
+    transition: .5s all ease-in-out;
+}
+
+nav.stickyadd .navbar-brand{
+    color: #000;
+    font-size: 40px;
+    transition: .5s all;
+}
+
+nav.stickyadd .navbar-nav .nav-link{
+    color: #000 !important;
+}
+nav.stickyadd .navbar-nav .nav-link:hover{
+  color: #c02c2c !important;
+  font-weight: bolder;
+}
+
+.navbar .hamburger{
+    color: #fff;
+}
+
+nav.stickyadd .hamburger{
+    color: #000;
+}
+
+/* Header Section*/
+
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-box{
+    max-width: 700px;
+    color: #fff;
+}
+
+.content-box h4{
+    font-size: 30px;
+}
+
+.content-box h1{
+    font-size: 52px;
+}
+
+.content-box a{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 5px 25px;
+}
+
+.content-box a:hover{
+    color: #000;
+    background:#fff;
+    transition: 0.5s all;
+}
+
+.content-box p{
+    color: #fff;
+}
+
+#myList{
+    font-family: 'Nunito', sans-serif;  
+    font-size: 20px;
+    line-height: 30px;
+    color:#6c757d;
+}
+
+/* About Us*/
+
+ .about li a{
+    color: #000;
+    display: inline-block;  
+    height: 42px;
+    width: 42px;
+    font-size: 20px;
+    border: 2px solid #d4d4dd;
+    border-radius: 50%;
+    line-height: 40px;
+    transition: 0.5s all;
+    text-align: center;
+}
+
+.about li a:hover{
+    color: #61bbde;
+} 
+
+/* Exprience Section */
+.exp-class .progress{
+    height: 10px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.progress-bar{
+    background-color: #61bbde !important;
+}
+
+.exp-class label{
+    font-size: 20px;
+    margin: 10px;
+}
+
+/* Service Section */
+
+.card,.card-header{
+    background: #F8F9FA !important;
+}
+
+.card-header{
+    border: none !important;
+}
+
+.services-class .card-header i{
+    font-size: 50px;
+}
+
+.service-border{
+    height: 2px;
+    width: 40px;
+    margin: 15px auto; 
+    background: #61bbde;
+}
+
+/* Panels */
+
+.w3-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.w3-half {
+   width: calc(50% - 5px);  
+  /* margin-left: 3em;
+  margin-right: 50em;  */
+}
+
+.custom-panel {
+  max-width: 300px;
+  font-size: 18px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  margin-bottom: 20px;
+  display: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-panel-left {
+  border-left: 6px solid #2196F3;
+}
+
+.custom-panel-right {
+  border-right: 6px solid #4CAF50;
+}
+
+.toggle-arrow {
+  cursor: pointer;
+  font-weight: bold;
+  color: #777;
+  transition: color 0.3s ease;
+}
+
+.toggle-arrow:hover {
+  color: #333;
+}
+
+/* Testimony */
+
+.testimony-class .test-item{
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+.testimony-class .test-item .test-img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.testimony-class .test-item i{
+    color: grey;
+}
+
+.test-item p.test-name{
+    font-size:12px
+}
+
+/* Work */
+
+.work .card-wrapper{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/* Contact */
+.contact .r-icon {
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  /* footer */
+  footer {
+    height: 200px;
+    background-color: #363636;
+  }
+  footer .r-icon a {
+    font-size: 20px;
+    color: #868585;
+    padding: 10px;
+    border: 1px solid #999898;
+    border-radius: 60%;
+  }
+  footer .r-icon a:hover {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    transition: 0.5s all;
+  }
+
+  /* Media-------------------------------------------------------------------------------- */
+  @media (min-width: 200px) and (max-width: 768px) {
+    .r-nav {
+      background: #fff !important;
+    }
+    .r-nav .container {
+      width: 85%;
+    }
+    nav .navbar-brand {
+      font-size: 30px;
+      color: #000;
+    }
+    .navbar .hamburger {
+      color: #000;
+    }
+    nav .navbar-nav .nav-link {
+      color: #000 !important;
+    }
+   
+    .content-box h1 {
+      font-size: 30px;
+    }
+    .content-box p {
+      font-size: 16px;
+    }
+    header {
+      height: 100vh;
+      width: 100%;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../images/background.jpg");
+      background-repeat: repeat;
+      background-size: cover;
+      background-position: -700px 0;
+    }
+
+    #myList {
+        padding-left: 20px;
+      }
+
+    .w3-container {
+        padding-left: 10px; 
+        padding-right: 10px;
+        
+      }
+      
+    .w3-half {
+        width: 100%; 
+        margin-left: 0 !important; 
+        margin-right: 0 !important; 
+      }
+      
+    .w3-half {
+          width: 100%; 
+        } 
+        
+    .w3-panel p {
+    font-size: 14px; 
+         }
+
+    .toggle-arrow {
+    text-align:center; 
+  }
+
+  .table th,
+  .table td {
+      padding: 2px;
+      font-size: 7px;
+  }
+        
+}
+          
+      
+      
